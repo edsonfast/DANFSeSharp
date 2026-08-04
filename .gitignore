@@ -1,0 +1,38 @@
+# ---- Saida de compilacao ----
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# ---- Visual Studio (estado local do usuario) ----
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vsidx
+
+# ---- NuGet ----
+packages/
+*.nupkg
+*.snupkg
+
+# ---- Claude Code (configuracao local da maquina) ----
+.claude/settings.local.json
+
+# ---- Arquivos fiscais de teste ----
+# XMLs e PDFs de NFS-e reais contem CNPJ, e-mail e certificado digital.
+# Nao versione notas de producao; use amostras anonimizadas se precisar.
+*.xml
+!**/App.config
+!**/packages.config
+*.pdf
+
+# ---- Diversos ----
+Thumbs.db
+desktop.ini
+*.log
